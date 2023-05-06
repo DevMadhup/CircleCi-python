@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  buil:
+    docker:
+      - image: cimg/base:2022.05
+        auth:
+          user:
+            mydockerhub-user
+          pass:
+            $DOCKERHUB_PASSWORD

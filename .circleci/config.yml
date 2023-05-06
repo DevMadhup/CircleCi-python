@@ -8,3 +8,5 @@ jobs:
             mydockerhub-user
           password:
             $DOCKERHUB_PASSWORD
+          steps:
+            - run: echo "Hi"
